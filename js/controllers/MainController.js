@@ -2,16 +2,16 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.apps = [ 
 	 
 	  { 
-	    icon: 'img/butterLogo.svg', 
+	    icon: 'img/butterLogo.png', 
 	    title: 'МАСЛО', 
 	    color:'yellow',
 	  },
 	  {
-	    icon: 'img/milkLogo.svg', 
+	    icon: 'img/milkLogo.png', 
 	    title: 'МОЛОКО', 
 	    color:'white',
 	  }, { 
-	    icon: 'img/cheeseLogo.svg', 
+	    icon: 'img/cheeseLogo.png', 
 	    title: 'СЫР', 
 	    color:'yellow', 
 	    
