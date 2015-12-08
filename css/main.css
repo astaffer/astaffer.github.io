@@ -5,6 +5,13 @@ html, body {
   /*font-weight: bold;*/
   margin: 0;
   padding: 0;
+min-height: 100%;
+}
+html{
+position:relative;
+}
+body{
+ margin-bottom: 60px;
 }
 .container {
   padding: 0;
@@ -64,6 +71,11 @@ html, body {
 
 .center {
     width: 150px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+}
+.yacenter {
+    width: 460px; /* Ширина элемента в пикселах */
     padding: 10px; /* Поля вокруг текста */
     margin: auto; /* Выравниваем по центру */
 }
@@ -164,10 +176,41 @@ right: -50%;
 .title{
   text-align: center;
 }
+.down a{
+   color:  #8E6C57;
+}
+.down a:hover{
+   color: #80C9A5;
+   text-decoration: none;
+}
 .main a{
-   color: #FFF;
+   color: #8E6C57;
 }
 .main a:hover{
    color: #80C9A5;
    text-decoration: none;
+}
+
+.footer {
+   position: absolute;
+width:100%;
+  bottom: 0;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: transparent;
+}
+.footerbox{
+	background-color:#F7F181;
+	max-width: 960px; /* Ширина элемента в пикселах */
+        padding: 10px; /* Поля вокруг текста */
+       margin: auto; /* Выравниваем по центру */
+border-radius: 8px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+hr{
+margin:auto;
+ margin-bottom: 5em;
+width:960px;
 }
