@@ -14,7 +14,6 @@ app.controller('MainController', ['$scope', function($scope) {
 	    icon: 'img/cheeselogo.svg', 
 	    title: 'СЫР', 
 	    color:'yellow', 
-	    
 	  }
 	];
 }]);

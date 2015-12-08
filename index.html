@@ -26,7 +26,7 @@
 		</div>
 		<div class="topImage">
 		  <img class ="centered" src ="img/flagRow.png" />
-		  <h1><span>НовСыр</span></h1>
+		  <h1><span>ООО «НовСыр»</span></h1>
 		</div>
       </div>
 	  
@@ -45,11 +45,12 @@
 	
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav ">
-			<li class ="active"><a href="#">Главная</a></li>
-			<li><a href="#">О нас</a></li>
-			<li><a href="#">Заказать</a></li>
-			<li><a href="#">Как добраться</a></li>        
+		  <ul id = "main_menu" class="nav navbar-nav ">
+			<li class ="active"><a href="about">О нас</a></li>
+			<li><a href="order">Заказать</a></li>
+			<li><a href="location">Как добраться</a></li>
+			<li><a href="priceList">Прайс-лист</a></li>
+			<li><a href="contacts">Контакты</a></li>         
 		  </ul>
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -60,7 +61,6 @@
       <div class="container">
          <div class="card" ng-repeat="app in apps">
           <app-info info="app"></app-info>
-           
         </div>
       </div>
     </div>
@@ -81,5 +81,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/mainApp.js"></script>
   </body>
 </html>
