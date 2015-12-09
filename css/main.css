@@ -17,6 +17,7 @@ body{
   padding: 0;
   width: 100%;
    text-align: center;
+max-width:960px;
 }
 .card {
    overflow: hidden;
@@ -121,8 +122,8 @@ color: #80C9A5;
 img.icon
 {
   margin: 0 20px 0 0;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   display: block;
 	margin: 0 auto;
 }
@@ -175,6 +176,7 @@ right: -50%;
 }
 .title{
   text-align: center;
+	width:180px;
 }
 .down a{
    color:  #8E6C57;

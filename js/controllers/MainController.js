@@ -15,5 +15,27 @@ app.controller('MainController', ['$scope', function($scope) {
 	    title: 'СЫР', 
 	    color:'yellow', 
 	  }
+	, { 
+	    icon: 'img/yogurt.svg', 
+	    title: 'ЙОГУРТ', 
+	    color:'yellow', 
+	  }
+	, { 
+	    icon: 'img/perishable.svg', 
+	    title: 'СКОРОПОРТ', 
+	    color:'yellow', 
+	  }
+	, { 
+	    icon: 'img/meltedcheese.svg', 
+	    title: 'ПЛАВЛЕННЫЙ СЫР', 
+	    color:'yellow', 
+	  }
+		, { 
+	    icon: 'img/other.svg', 
+	    title: 'ДРУГОЕ', 
+	    color:'yellow', 
+	  }
 	];
+	
+
 }]);
