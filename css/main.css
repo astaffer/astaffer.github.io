@@ -216,3 +216,9 @@ margin:auto;
  margin-bottom: 5em;
 width:960px;
 }
+#rcorners1 {
+    border-radius: 25px;
+    background: #F7F181;
+    padding: 20px; 
+    max-width: 960px;
+}
