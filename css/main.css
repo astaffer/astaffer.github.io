@@ -79,6 +79,7 @@ max-width:960px;
     width: 460px; /* Ширина элемента в пикселах */
     padding: 10px; /* Поля вокруг текста */
     margin: auto; /* Выравниваем по центру */
+max-height:500px;
 }
 .circleBase {
     border-radius: 50%;
@@ -198,15 +199,18 @@ right: -50%;
 width:100%;
   bottom: 0;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 40px;
   background-color: transparent;
 }
 .footerbox{
 	background-color:#F7F181;
-	max-width: 960px; /* Ширина элемента в пикселах */
+max-width: 960px; 	/* Ширина элемента в пикселах */
         padding: 10px; /* Поля вокруг текста */
        margin: auto; /* Выравниваем по центру */
-border-radius: 8px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;
+border-bottom-right-radius:0px;
+border-bottom-left-radius:0px;
 }
 .container .text-muted {
   margin: 20px 0;
