@@ -41,6 +41,11 @@ max-width:960px;
   height: 120px;
   width: 120px;
 }
+#logo {
+  margin: 0 20px 0 0;
+  height: 160px;
+  width: 160px;
+}
 .header a {
   color: #000;
   font-size: 20px;  
@@ -71,7 +76,7 @@ max-width:960px;
 }
 
 .center {
-    width: 160px; /* Ширина элемента в пикселах */
+    width: 180px; /* Ширина элемента в пикселах */
     padding: 10px; /* Поля вокруг текста */
     margin: auto; /* Выравниваем по центру */
 }
@@ -86,8 +91,8 @@ max-height:500px;
     behavior: url(PIE.htc); /* remove if you don't care about IE8 */
 }
 .type1 {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     background:#F7F181;
     box-sizing: border-box;
     padding: 10px;
