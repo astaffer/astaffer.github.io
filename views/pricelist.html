@@ -1,14 +1,16 @@
-﻿  <div class="container" id = "rcorners1">
-<h3>Прайс-лист</h3>
+﻿<div class="down" ng-controller="PricelistController">
+<div class="container" id = "rcorners1">
+<h3>{{pricelist.title}}</h3>
 <p>
-	Актуальный прайс-лист на продукцию можно скачать по ссылке.
+	{{pricelist.info}}
 </p>
 <div class = "center">
 
-	<a href="https://cloud.mail.ru/public/5Gwh9SZaE545/Прайс.xlsx">
+	<a ng-href="{{pricelist.link}}">
 	<div class = "circleBase type1">
 		<h4><img src="img\excel.png" width="80px" height="80px"\><br>Скачать<h4>
 </div>
 </a>
 </div>
   </div>
+ </div>

@@ -1,19 +1,18 @@
-﻿  <div class="container" id = "rcorners1">
-	<h3>Наши контакты</h3>
+﻿<div class="down" ng-controller="ContactsController">
+  <div class="container" id = "rcorners1">
+	<h3>{{contacts.title}}</h3>
     	<p>
-		<h4>Электронная почта</h4>
-		E-MAIL:	molokopro@mail.ru, novmol@mail.ru<br>
 		<h4>Офис, прием заказов</h4>
-		Телефон/факс: (8162) 62-19-97 <br>
-		Телефон/факс: (8162) 61-99-34
+			<div ng-repeat= "phone in contacts.phones">Телефон/факс: <strong>{{phone}}</strong></div>
+		<h4>Электронная почта</h4>
+			<div  ng-repeat="email in contacts.emails">E-mail:<strong><a ng-href="mailto:{{email}}">{{email}}</a></strong></div>
 		<h4>Торговый представитель, прием заказов</h4>
-		Телефон: 8-911-6000-326, 600-326, Сергей<br>
-		Телефон: 8-911-6000-104, 600-104, Олеся 
+			<div ng-repeat= "sale in contacts.sales">Телефон:<strong>{{sale}}</strong></div>
 		<h4>Адрес</h4>
-		173008,Великий Новгород, Сырковское шоссе д.3
+		<strong>{{contacts.address}}</strong>
 		<h4>Режим работы</h4>
-		понедельник - пятница  8.00-17.00 
-		суббота - воскресенье выходной
+		  <div ng-repeat= "time in contacts.timetable"><strong>{{time}}</strong></div>
 	</p>
 
+  </div>
   </div>

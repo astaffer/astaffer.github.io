@@ -1,31 +1,22 @@
-﻿  <div class="container" id = "rcorners1">
-	<h3>Как заказать</h3>
+﻿<div class="down" ng-controller="OrderController">
+  
+<div class="container" id = "rcorners1">
+	<h3>{{order.title}}</h3>
     	<p>
-		Вы можете оставить заявку, отправив письмо на электронную почту, либо позвонить нам по телефону.
-		<h4>Электронная почта</h4>
-		E-MAIL:	molokopro@mail.ru, novmol@mail.ru<br>
+		{{order.info}}
+		</p>
 		<h4>Офис, прием заказов</h4>
-		Телефон/факс: (8162) 62-19-97 <br>
-		Телефон/факс: (8162) 61-99-34
+			<div ng-repeat= "phone in contacts.phones">Телефон/факс: <strong>{{phone}}</strong></div>
+		<h4>Электронная почта</h4>
+			<div  ng-repeat="email in contacts.emails">E-mail:<strong><a ng-href="mailto:{{email}}">{{email}}</a></strong></div>
 		<h4>Доставка</h4>
-		Осуществляем доставку в городе Великий Новгород и Новгородской области<br>
-по направлениям:
-<div class = "center">
-<ul align="left">
-	<li>Сольцы</li>
-	<li>Шимск</li>
-	<li>Старая русса</li>
-	<li>Чудово</li>
-	<li>Малая вишера</li>
-<li>Окуловка</li>
-<li>Валдай</li>
-<li>Крестцы</li>
-<li>Боровичи</li>
-<li>Хвойная</li>
-</ul>
-</div>
+		{{order.delivery.info}}
+			<div class = "center">
+			<ul align="left">
+				<li ng-repeat="city in order.delivery.citys"><strong>{{city}}</strong></li>
+			</ul>
+			</div>
 		<h4>Торговый представитель, прием заказов</h4>
-		Телефон: 8-911-6000-326, 600-326, Сергей<br>
-		Телефон: 8-911-6000-104, 600-104, Олеся 
-	</p>
+			<div ng-repeat= "sale in contacts.sales">Телефон:<strong>{{sale}}</strong></div>
+  </div>
   </div>
