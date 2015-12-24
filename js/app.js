@@ -1,6 +1,6 @@
 var app = angular.module('app', ['ngRoute'])
     .config(['$routeProvider',function($routeProvider){
-        
+      
         
         $routeProvider.when('/',
         {
@@ -47,8 +47,9 @@ var app = angular.module('app', ['ngRoute'])
         }).otherwise({ 
       		redirectTo: '/' 
     });
-        
+          
 }]);
+
  app.directive('script', function() {
     return {
       restrict: 'E',
