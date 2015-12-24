@@ -21,9 +21,9 @@ var main = function(){
 			$('#main_menu li').removeClass('active');
 			$(this).toggleClass('active');
 	});
+	
+
 };
-//alert(window.location.href);
-//$(document).ready(main);
 $(function(){
 main();
 });
