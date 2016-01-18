@@ -31,7 +31,7 @@ max-width:960px;
     	padding-left: 15px;
     	margin-right: auto;
     	margin-left: auto;
-		max-width: 960px;
+		max-width: 1000px;
 		min-width: 320px;
 		margin: auto;
 		padding-top: 20px;
@@ -245,13 +245,12 @@ width:960px;
     padding: 20px; 
     max-width: 960px;
 }
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px; /* negative of the offset - height of link element */
-    left: 10px; /* padding from the left side of the window */
+textarea {
+    min-width:280px;
+    min-height:100px;
+    max-width: 350px; 
+    max-height: 300px;
 }
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
-    left: 10px; /* padding from the left side of the window */
+input {
+	  min-width:280px;
 }

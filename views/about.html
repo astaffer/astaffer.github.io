@@ -9,6 +9,7 @@
 		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		    <li data-target="#myCarousel" data-slide-to="1"></li>
 		    <li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 		  </ol>
 		
 		  <!-- Wrapper for slides -->
@@ -42,8 +43,15 @@
 			<p align="left">Наш телефон:<strong>{{contacts.phones[0]}}</strong></p>
 			<p align="left">Наш e-mail:<strong>{{contacts.emails[0]}}</strong></p>
 			<p align="left">Режим работы:<strong >{{contacts.timetable[0]}}</strong></p>
+<div class = "col-md-6">
 			 <!-- VK Widget -->
 			<div ng-include="'views/vk.html'"></div>
+</div>
+<div class = "col-md-6">
+			 <!-- Twitter Widget -->
+			<div ng-include="'views/twitter.html'"></div>
+</div>
+			</p>
 	  </div>
 	  
 	</div>

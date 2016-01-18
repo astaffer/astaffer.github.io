@@ -59,7 +59,8 @@
 			<li id = "contacts"><a href="#/contacts">Контакты</a></li>         
 			<li id = "pricelist"><a href="#/pricelist">Прайс</a></li>
 			<li id = "productions"><a href="#/productions">Продукция</a></li>
-			<li id = "actions"><a href="#/actions">Акции</a></li>
+			<!--<li id = "actions"><a href="#/actions">Акции</a></li>-->
+			<li id = "main"><a href="#/main">Написать</a></li>
 		  </ul>
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -67,9 +68,12 @@
 	</div>
 	
 <div class="main">
+
 </div>
 
 <div ng-view></div>
+
+
 <div></div>
 
 <footer class="footer">
@@ -90,6 +94,7 @@
 	<script src="js/controllers/PricelistController.js"></script>
 	<script src="js/controllers/ProductsController.js"></script>
 	<script src="js/controllers/ProductController.js"></script>
+	<script src="js/controllers/MainController.js"></script>
     <!-- Services -->
     <script src="js/services/dataService.js"></script>
     <script src="js/services/productService.js"></script>
@@ -99,16 +104,8 @@
     <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.js"></script>
 <script src="js/mainApp.js"></script>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-71400644-1', 'auto');
-  ga('send', 'pageview');
+   
 
 
-</script>
   </body>
 </html>

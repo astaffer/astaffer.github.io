@@ -1,0 +1,21 @@
+﻿<div class="down" ng-controller="MainController">
+  <div class="container" id = "rcorners1">
+	<div class="row">
+	 <form name="answerForm">
+		<fieldset>
+			<p><label for="answerAuthor">Как к Вам обращаться: </label></p>
+	<input id="answerAuthor" ng-model="answer.author" required placeholder="например, Мария Петровна Иванова" />
+			<p><label for="answerEmail">Email для связи: </label></p>
+			<p>	<input id="answerAuthor" ng-model="answer.email" ng-pattern="EMAIL_REGEXP" required placeholder="например, mivanova@yandex.ru" /></p>
+			<p><label for="answerText">Ваше сообщение: </label></p>
+					<p><textarea required rows="5" id="answerText" ng-model="answer.text" required placeholder="Здравствуйте, "></textarea></p>
+		</fieldset>
+		<button type="submit" ng-click="save(answer, answerForm)">Отправить</button>
+	</form>
+	  
+	</div>
+  </div>
+</div> 	
+
+
+
