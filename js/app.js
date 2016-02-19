@@ -11,11 +11,6 @@ var app = angular.module('app', ['ngRoute'])
             templateUrl:'views/about.html',
             controller:'AboutController'
         })
-	.when('/main',
-        {
-            templateUrl:'views/main.html',
-            controller:'MainController'
-        })
 	.when('/actions',
         {
             templateUrl:'views/actions.html',

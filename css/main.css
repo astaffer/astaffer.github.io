@@ -1,8 +1,8 @@
 html, body {
- /* background: #fff;*/
-  background: #FFCC99;
+  background: #fff;
+
   font-family:  sans-serif;
-  /*font-weight: bold;*/
+font-weight: bold;
   margin: 0;
   padding: 0;
 min-height: 100%;
@@ -110,18 +110,7 @@ max-height:500px;
     margin:0;
     float:none;
 }
-.navbar-default .navbar-nav>li>a {
-    color: #8E6C57;
-}
-.navbar-default .navbar-nav>li>a:hover {
-    color: #80C9A5;
-}
-.navbar-default .navbar-nav>.active>a{
-  color: #8E6C57;
-}
-.navbar-default .navbar-nav>.active>a:hover{
-color: #80C9A5;
-}
+
 .navbar-inner{
     text-align:center;
 }
@@ -222,7 +211,7 @@ width:100%;
   background-color: transparent;
 }
 .footerbox{
-	background-color:#F7F181;
+	background-color:#000;
 max-width: 960px; 	/* Ширина элемента в пикселах */
         padding: 10px; /* Поля вокруг текста */
        margin: auto; /* Выравниваем по центру */
