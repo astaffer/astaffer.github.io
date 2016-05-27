@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Carousel Template for Bootstrap</title>
+    <title>Деловая недвижимость</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,20 +28,23 @@
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div class = "container">
-		<div class="header">
-			
-	        	<ul class="nav nav-pills pull-right">
-			        <li class="active"><a href="#">Домой</a></li>
-			        <li><a href="#">О компании</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li><a href="#">Как добраться</a></li>
-		        </ul>
-<img src="\img\logo_small.png"  alt="Деловая недвижимость логотип"></img>
-<!--<h3 class="text-muted">Деловая недвижимость</h3>-->
-	        </div>
+<div class = "fixed">
+	<div class = "container" >
+			<div class="header" >
+	
+		        	<ul class="nav nav-pills pull-right" id="main_menu">
+				        <li class="active"><a class="scroll" href="#home">О нас</a></li>
+				        <li><a class="scroll" href="#office">Офисы</a></li>
+					<li><a class="scroll" href="#prom">Производство</a></li>
+					<li><a class="scroll" href="#trade">Торговля</a></li>
+					<li><a class="scroll" href="#contacts">Контакты</a></li>
+			        </ul>
+	<img src="\img\logo_small.png"  alt="Деловая недвижимость логотип"></img>
+	<!--<h3 class="text-muted">Деловая недвижимость</h3>-->
+		        </div>
+	</div>
 </div>
-
+<div style="min-height:100px" id ="home"></div>
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -86,7 +89,8 @@
       <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
-
+<div id="office"></div>
+      
 
 
     <!-- Marketing messaging and featurettes
@@ -94,34 +98,69 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
     <div class="container marketing">
+<div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" >Офисная недвижимость <span class="text-muted">Удобно</span></h2>
+          <p class="lead">Офис – это тот подвид недвижимого имущества, которой способен приносить доход по всем направлениям, как выдавать конкретный продукт, который будет применяться в дальнейшем, так и содействовать формированию экономики отдельно взятого места.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img\realestate1x500.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+<div id="prom"></div>
+      
+      <hr class="featurette-divider">
 
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img\realestate2x500.jpg"  alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading" >Промышленная недвижимость <span class="text-muted">Масштабно</span></h2>
+          <p class="lead">Производственная недвижимость  и производственные помещения – являются довольно специфическим сегментом рынка недвижимости.  Наиболее важными в этом сегменте становятся технопарки, а также проблема реконструкции промзон промышленных предприятий. Очевидно, что к объектам коммерческой недвижимости мы можем отнести здания промышленного назначения (производственные здания, складские помещения, здания заводоуправлений).</p>
+        </div>
+      </div>
+<div id="trade"></div>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" id="trade">Торговая недвижимость <span class="text-muted">Выгодно</span></h2>
+          <p class="lead">Торговая недвижимость – это одна из разновидностей коммерческой недвижимости, подготовленная для организации мест мелкооптовой и розничной продажи товаров и услуг. Торговая, а так же развлекательная недвижимость, стоят на пересечении рынка недвижимости и иных сфер бизнеса, объединенных с индустрией торговли и развлечений. Торгово-развлекательный центр, торговый комплекс, торговый дом – все эти объекты известны любому, однако правильная система торгово-развлекательной площадки – несомненно, является целой наукой.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img\realestate3x500.jpg"  alt="Generic placeholder image">
+        </div>
+      </div>
+<div id="contacts"></div>
+      <hr class="featurette-divider">
       <!-- Three columns of text below the carousel -->
       <div class="row">
  <h2>Мы поможем Вам</h2>
         <div class="col-lg-3">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" src="img\tulva.png">
-          <h2>Владимир Тульских</h2>
+          <h2><p>Владимир</p>Тульских</h2>
           <p>Офисная недвижимость</p>
           <p>(8162)60-08-38</p>
           <p><a class="btn btn-default" href="mailto:tulskikh.v@delrealty.ru" role="button">tulskikh.v@delrealty.ru</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" src="img\kulvv.jpg">
-         <h2>Виталий Кулагин</h2>
+         <h2><p>Виталий</p>Кулагин</h2>
           <p>Торговая недвижимость</p>
           <p>(8162)60-08-68</p>
           <p><a class="btn btn-default" href="mailto:kulagin.v@delrealty.ru" role="button">kulagin.v@delrealty.ru</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" src="img\sasvv.jpg">
-          <h2>Владимир Сасмиль</h2>
+          <h2><p>Владимир</p> Сасмиль</h2>
           <p>Торговая недвижимость</p>
           <p>(8162)60-08-58</p>
           <p><a class="btn btn-default" href="mailto:sasmil.v@delrealty.ru" role="button">sasmil.v@delrealty.ru</a></p>
         </div><!-- /.col-lg-4 -->
          <div class="col-lg-3">
           <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image" src="img\ivavv.jpg">
-          <h2>Виталий Иванов</h2>
+          <h2><p>Виталий</p>Иванов</h2>
             <p>Промышленная недвижимость</p>
           <p>(8162)60-08-48</p>
           <p><a class="btn btn-default" href="mailto:ivanov.v@delrealty.ru" role="button">ivanov.v@delrealty.ru</a></p>
@@ -163,43 +202,7 @@
         </div>
       </div>
 
-      <!--
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
--->
+     
       <!-- /END THE FEATURETTES -->
 
 
@@ -217,5 +220,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
