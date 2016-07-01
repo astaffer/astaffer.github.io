@@ -1,4 +1,5 @@
 $(function(){
+	 $('body').scrollspy({ target: '#spy', offset:80});	
 $('a.scroll').click(function(e){
  	    $('html, body').animate({
  	        scrollTop: $( $.attr(this, 'href') ).offset().top
@@ -6,11 +7,11 @@ $('a.scroll').click(function(e){
 e.preventDefault();
  	});
 
-$('#main_menu li').click(function(event){
+/*$('#main_menu li').click(function(event){
 		$('#main_menu li').removeClass('active');
 		$(this).toggleClass('active');
 	});
-	
+*/
 });
 
 	
