@@ -221,7 +221,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    /*padding-top: 100px;*/
     padding-bottom: 50px
 }
 header .intro-text .intro-lead-in {
@@ -231,7 +231,10 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
     margin-bottom: 25px
 }
-
+.intro-lead-in
+{
+   margin-bottom: 15px;
+}
 .img-centered {
     margin: 0 auto
 }
@@ -738,7 +741,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
     display: block;
-    background-color: #222;
+    background-color: #428bca;
     height: 50px;
     width: 50px;
     border-radius: 100%;
