@@ -284,6 +284,12 @@ section h3.section-subheading {
     padding-top:15px;
     padding-bottom:15px;
 }
+.shadow2{
+    color: #fff;
+    background-color: /*rgba(85, 85, 85, 0.84);*/rgba(66, 139, 202, 0.35);
+    padding-top:15px;
+    padding-bottom:15px;
+}
 .timeline:before {
     top: 0;
     bottom: 0;
