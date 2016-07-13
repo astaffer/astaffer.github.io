@@ -16,6 +16,8 @@
 .icon-main
 {
 width:60px;
+padding-left:10px;
+padding-top:5px;
 }
 
 #sidebar-wrapper {
@@ -115,8 +117,25 @@ width:60px;
 	line-height: 0px;
 }
 
-
+header .intro-text .intro-heading {
+    /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+   font-family: 'Avenir Next LT Pro';
+    text-transform: uppercase;
+/*    font-weight: 700;*/
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 25px;
+text-align:left;
+}
+.logo-dots{
+	max-height:80px;
+	padding-top:25px
+}
 @media(min-width:768px) {
+.logo-dots{
+	max-height:110px;
+	padding-top:25px
+}
     #wrapper {
        /* padding-left: 250px;*/
 	padding-left: 75px;
@@ -174,6 +193,16 @@ background-color:#eef3f9;
         width: auto;
 
     }
+header .intro-text .intro-heading {
+    /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+   font-family: 'Avenir Next LT Pro';
+    text-transform: uppercase;
+/*    font-weight: 700;*/
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+text-align:left;
+}
 
 }
 header {
@@ -202,16 +231,7 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
     margin-bottom: 25px
 }
-header .intro-text .intro-heading {
-    /*font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-   font-family: 'Avenir Next LT Pro';
-    text-transform: uppercase;
-/*    font-weight: 700;*/
-    font-size: 50px;
-    line-height: 50px;
-    margin-bottom: 25px;
-text-align:left;
-}
+
 .img-centered {
     margin: 0 auto
 }
