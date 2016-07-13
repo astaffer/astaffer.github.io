@@ -54,9 +54,16 @@
         <div id="page-content-wrapper"   >
 	 	<header>
 		        <div class="container">
-				<div class="row">
+				<div class="row" style="margin-top:20px">
 
-					   <div class="col-md-4 col-md-offset-8" ><h2 class="section-heading" style="color:#337ab7;font-size:30px"><i class="fa fa-phone" aria-hidden="true"></i> 8 (8162) 600-810</h2></div>
+					   <div class="col-md-4 col-md-offset-8" ><ul class="list-inline social-buttons">
+                        <li><a href="https://vk.com/delovayanedv"><i class="fa fa-vk" style="color:#fff" ></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/delrealty"><i class="fa fa-facebook" style="color:#fff" ></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/delovaya_nedvizhimost/"><i class="fa fa-instagram" style="color:#fff" ></i></a>
+                        </li>
+                    </ul></div>
 				</div>
 		            <div class="intro-text">
 		                <ul class="list-inline"><li>
@@ -68,8 +75,8 @@
 				</ul>
 		    			<div class="row">
 
-					   <div class="col-md-8 col-md-offset-4">
-						<p class="large" style="text-align:left">
+					   <div class="col-md-8 col-md-offset-4 shadow" style="margin-bottom:20px">
+						<p class="large" style="text-align:left; text-size:18px">
 						УК Деловая недвижимость - консалтинговая компания, предоставляющая полный комплекс услуг в области коммерческой недвижимости. Мы работаем с арендаторами, собственниками и инвесторами на рынке Великого Новгорода. Мы предлагаем брокерские услуги по продаже и аренде помещений, представляя интересы как арендодателей, так и арендаторов, услуги по управлению коммерческой недвижимостью, оценке, консалтингу, управлению проектами.
 						</p>
 					</div>
@@ -80,16 +87,9 @@
 		            </div>
 
 
-<div class="intro-lead-in" >
-              
-<ul class="list-inline social-buttons">
-                        <li><a href="https://vk.com/delovayanedv"><i class="fa fa-vk" style="color:#fff" ></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/delrealty"><i class="fa fa-facebook" style="color:#fff" ></i></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/delovaya_nedvizhimost/"><i class="fa fa-instagram" style="color:#fff" ></i></a>
-                        </li>
-                    </ul>
+<div class="intro-lead-in " >
+              <h2 class="section-heading" style="color:#fff;font-size:30px;font-weight:700"><i class="fa fa-phone" aria-hidden="true"></i> 8 (8162) 600-810</h2>
+
 				
 				
 				</div>
@@ -153,8 +153,8 @@
 					<div class="col-md-7"></div>
 				        <div class="col-md-5 shadow">
 			          <h2 class="featurette-heading" >Офисные помещения<br>от 300 руб за 1 м²</h2>
-			          <p class="lead">Правильно подобранный офис  – одна из важных составляющих частей успешного ведения бизнеса как для новых компаний, так и для многих старожилов рынка. Сегодня арендатор, желающий снять офис в В. Новгороде, может выбрать помещение 
-из более 20 предложений, представленных в нашей базе.
+			          <p class="lead">Правильно подобранный офис  – одна из важных составляющих частей успешного ведения бизнеса как для новых компаний, так и для многих старожилов рынка. Сегодня арендатор, желающий снять офис в Великом Новгороде, может выбрать помещение 
+из нескольких десятков предложений, представленных в нашей базе.
 </p>
 			        </div>
 			        
@@ -400,14 +400,14 @@
 		        </div>
 		    </section>   
  <!-- Map Section -->		
-		   <section id="map" class="bg-light-gray">
+		   <section id="map">
 			<div class="container">
 				<div class="row ">
 					<div class="col-md-4"><h2>Контактная<br>информация</h2>
 <p class="text-uppercase" style="font-size:16px; padding-top:40px"> Великий Новгород,
 <br>ул.Б.Санкт-Петербургская,39 
 <br>БЦ «ВОЛНА», офис 45 </p>
-<p class="lead"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> 600-810 
+<p class="lead"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> 8 (8162) 600-810 
 <br><i class="fa fa-envelope" aria-hidden="true"></i> info@delrealty.ru</p>
 				</div>
 
@@ -431,32 +431,32 @@
 		            </div>
 		            <div class="row">
 		                <div class="col-lg-12">
-		                    <form name="sentMessage" id="contactForm" novalidate>
+		                    <form name="sentMessage" id="contactForm" novalidate onsubmit="return   submitContactForm();">
 		                        <div class="row">
 		                            <div class="col-md-6">
 		                                <div class="form-group">
-		                                    <input type="text" class="form-control" placeholder="Ваше имя *" id="name" required data-validation-required-message="Пожалуйста введите имя.">
+		                                    <input type="text" class="form-control" placeholder="Ваше имя *" id="form_name" required data-validation-required-message="Пожалуйста введите имя.">
 		                                    <p class="help-block text-danger"></p>
 		                                </div>
 		                                <div class="form-group">
-		                                    <input type="email" class="form-control" placeholder="Ваш email *" id="email" required data-validation-required-message="Пожалуйста введите адрес.">
+		                                    <input type="email" class="form-control" placeholder="Ваш email *" id="form_email" required data-validation-required-message="Пожалуйста введите адрес.">
 		                                    <p class="help-block text-danger"></p>
 		                                </div>
 		                                <div class="form-group">
-		                                    <input type="tel" class="form-control" placeholder="Ваш телефон *" id="phone" required data-validation-required-message="Пожалуйста введите ваш номер телефона.">
+		                                    <input type="tel" class="form-control" placeholder="Ваш телефон *" id="form_phone" required data-validation-required-message="Пожалуйста введите ваш номер телефона.">
 		                                    <p class="help-block text-danger"></p>
 		                                </div>
 		                            </div>
 		                            <div class="col-md-6">
 		                                <div class="form-group">
-		                                    <textarea class="form-control" placeholder="Ваше сообщение *" id="message" required data-validation-required-message="Пожалуйста введите сообщение."></textarea>
+		                                    <textarea class="form-control" placeholder="Ваше сообщение *" id="form_message" required data-validation-required-message="Пожалуйста введите сообщение."></textarea>
 		                                    <p class="help-block text-danger"></p>
 		                                </div>
 		                            </div>
 		                            <div class="clearfix"></div>
 		                            <div class="col-lg-12 text-center">
 		                                <div id="success"></div>
-		                                <button type="submit" class="btn btn-xl">Отправить сообщение</button>
+		                                <button onclick="return   submitContactForm();" class="btn btn-xl">Отправить сообщение</button>
 		                            </div>
 		                        </div>
 		                    </form>
