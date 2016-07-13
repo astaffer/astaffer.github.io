@@ -586,8 +586,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #fec503;
-    border-color: #f6bf01
+    background-color: #f84040;
+    border-color: #f84042
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -766,7 +766,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #428bca
+/*    background-color: #428bca*/
+background-color:#000
 }
 .btn:focus,
 .btn:active,
