@@ -278,6 +278,12 @@ section h3.section-subheading {
     padding: 0;
     position: relative
 }
+.shadow{
+    color: #fff;
+    background-color: rgba(85, 85, 85, 0.84);
+    padding-top:15px;
+    padding-bottom:15px;
+}
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -497,7 +503,7 @@ a.active {
     color: #fec503
 } 
 h1,
-h2,
+ 
 h3,
 h4,
 h5,
@@ -506,6 +512,10 @@ h6 {
     text-transform: uppercase;
     font-weight: 700
 }
+ h2{
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+ }
 .img-centered {
     margin: 0 auto
 }
