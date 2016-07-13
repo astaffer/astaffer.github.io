@@ -806,6 +806,16 @@ ul.social-buttons li a:active {
     background-size: cover;
     -o-background-size: cover;
 }
+#map{
+    /*background-image: url(../img/img-bg4.jpg);*/
+  background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 #office{
     background-image: url(../img/img-bg-office.jpg);
   background-repeat: none;
