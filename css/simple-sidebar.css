@@ -803,16 +803,6 @@ background-color:#000
     background-color:#eef3f9;
 }
 
-#about{
-    /*background-image: url(../img/img-bg4.jpg);*/
-  background-repeat: none;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 #map{
     /*background-image: url(../img/img-bg4.jpg);*/
   background-repeat: none;
@@ -880,6 +870,13 @@ overflow:scroll;
     background-size: cover;
     -o-background-size: cover;
 overflow:hidden;
+padding-top:100px;
+padding-bottom:100px;
+}
+#services
+{
+padding-top:100px;
+padding-bottom:100px;
 }
 .portfolio-modal .modal-content {
     border-radius: 0;
