@@ -869,6 +869,18 @@ overflow:scroll;
     -o-background-size: cover;
 overflow:hidden;
 }
+#about{
+    background-image: url(../img/img-bg-about.jpg);
+    background-attachment: fixed;
+  background-repeat: none;
+overflow:scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+overflow:hidden;
+}
 .portfolio-modal .modal-content {
     border-radius: 0;
     background-clip: border-box;
