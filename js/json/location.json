@@ -1,9 +1,0 @@
-{
-        "location":
-        { 
-	 title:"Наше расположение",
-	 info:"",
-	 images:["img\loc1.png","img\loc2.png","img\loc3.png"]
-	}
-    
-}
